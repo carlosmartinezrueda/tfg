@@ -1,0 +1,21 @@
+<!-- Indices written at Mon, 11 Jul 2016 19:32:12 CEST -->
+
+<datastore-indexes>
+
+    <!-- Used 265 times in query history -->
+    <datastore-index kind="Ruta" ancestor="true" source="auto">
+        <property name="nombre" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 105 times in query history -->
+    <datastore-index kind="Punto" ancestor="true" source="auto">
+        <property name="nombreRuta" direction="asc"/>
+    </datastore-index>
+
+    <!-- Used 176 times in query history -->
+    <datastore-index kind="Punto" ancestor="false" source="auto">
+        <property name="nombreRuta" direction="asc"/>
+        <property name="posicion" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>

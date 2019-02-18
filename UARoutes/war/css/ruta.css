@@ -1,0 +1,96 @@
+header{
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+body {
+  font-family: 'Droid Serif';
+  background-color: white;
+  color: #333333;
+  margin: 0px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 36px;  
+}
+
+main {
+  max-width: 1080px;
+  margin-right: 9%;
+  margin-left: 9%;
+  width: 99%;
+}
+
+#map {
+  width: 30%;
+  height: 250px;
+  display: inline-block;
+  }
+
+#form {
+    vertical-align: top;
+    display: inline-block;
+}
+
+#nombreP{
+  border: 1px solid #aaa;
+  box-shadow: 0px 0px 3px #ccc, 0 5px 8px #eee inset;
+  border-radius:2px;
+  height: 30px; 
+  width: 100%;
+  margin-left: 4%;
+  margin-top: 5%;
+}
+
+#descripcion{
+  border: 1px solid #aaa;
+  box-shadow: 0px 0px 3px #ccc, 0 5px 8px #eee inset;
+  border-radius:2px;
+  height:100px; 
+  width: 100%;
+  margin-left: 4%;
+  margin-top: 4%;
+}
+
+input[type="button"]{
+  padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px
+}
+
+#boton {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 6px 12px 6px 12px;
+  text-decoration: none;
+  margin-left: 80%;
+  margin-top: 3%;
+}
+
+#boton:hover {
+  background: #78c3f5;
+  background-image: -webkit-linear-gradient(top, #78c3f5, #866af5);
+  background-image: -moz-linear-gradient(top, #78c3f5, #866af5);
+  background-image: -ms-linear-gradient(top, #78c3f5, #866af5);
+  background-image: -o-linear-gradient(top, #78c3f5, #866af5);
+  background-image: linear-gradient(to bottom, #78c3f5, #866af5);
+  text-decoration: none;
+}

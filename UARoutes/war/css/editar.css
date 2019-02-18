@@ -1,0 +1,245 @@
+header{
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+body {
+  font-family: 'Droid Serif';
+  background-color: white;
+  color: #333333;
+  margin: 0px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 36px;  
+}
+
+main {
+  max-width: 1080px;
+  margin-right: 9%;
+  margin-left: 9%;
+  width: 99%;
+}
+
+#map {
+  width: 50%;
+  height: 450px;
+  display: inline-block;
+  }
+
+#form {
+    vertical-align: top;
+    display: inline-block;
+    width: 35%;
+}
+
+#nombreR, #nombrePunto{
+  border: 1px solid #aaa;
+  box-shadow: 0px 0px 3px #ccc, 0 5px 8px #eee inset;
+  border-radius:2px;
+  height: 30px; 
+  width: 100%;
+  margin-left: 4%;
+}
+
+#descripcion{
+  border: 1px solid #aaa;
+  box-shadow: 0px 0px 3px #ccc, 0 5px 8px #eee inset;
+  border-radius:2px;
+  height:100px; 
+  width: 100%;
+  margin-left: 4%;
+}
+
+input[type="button"]{
+  padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px
+}
+
+#botonBorrar {
+  background: #d93434;
+  background-image: -webkit-linear-gradient(top, #d93434, #b82b2b);
+  background-image: -moz-linear-gradient(top, #d93434, #b82b2b);
+  background-image: -ms-linear-gradient(top, #d93434, #b82b2b);
+  background-image: -o-linear-gradient(top, #d93434, #b82b2b);
+  background-image: linear-gradient(to bottom, #d93434, #b82b2b);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 6px 12px 6px 12px;
+  text-decoration: none;
+  margin-left: 1%;
+}
+
+#botonBorrar:hover {
+  background: #fc3c3c;
+  background-image: -webkit-linear-gradient(top, #fc3c3c, #d93434);
+  background-image: -moz-linear-gradient(top, #fc3c3c, #d93434);
+  background-image: -ms-linear-gradient(top, #fc3c3c, #d93434);
+  background-image: -o-linear-gradient(top, #fc3c3c, #d93434);
+  background-image: linear-gradient(to bottom, #fc3c3c, #d93434);
+  text-decoration: none;
+}
+
+#botonGuardar {
+  background: #34d960;
+  background-image: -webkit-linear-gradient(top, #34d960, #2cb86d);
+  background-image: -moz-linear-gradient(top, #34d960, #2cb86d);
+  background-image: -ms-linear-gradient(top, #34d960, #2cb86d);
+  background-image: -o-linear-gradient(top, #34d960, #2cb86d);
+  background-image: linear-gradient(to bottom, #34d960, #2cb86d);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 6px 12px 6px 12px;
+  text-decoration: none;
+  margin-left: 31%;
+}
+
+#botonGuardar:hover {
+  background: #3cfa88;
+  background-image: -webkit-linear-gradient(top, #3cfa88, #34d997);
+  background-image: -moz-linear-gradient(top, #3cfa88, #34d997);
+  background-image: -ms-linear-gradient(top, #3cfa88, #34d997);
+  background-image: -o-linear-gradient(top, #3cfa88, #34d997);
+  background-image: linear-gradient(to bottom, #3cfa88, #34d997);
+  text-decoration: none;
+}
+
+#botonVolver {
+  background: #e0e0e0;
+  background-image: -webkit-linear-gradient(top, #e0e0e0, #abb8b3);
+  background-image: -moz-linear-gradient(top, #e0e0e0, #abb8b3);
+  background-image: -ms-linear-gradient(top, #e0e0e0, #abb8b3);
+  background-image: -o-linear-gradient(top, #e0e0e0, #abb8b3);
+  background-image: linear-gradient(to bottom, #e0e0e0, #abb8b3);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 15px;
+  padding: 6px 12px 6px 12px;
+  text-decoration: none;
+  margin-left: 10%;
+}
+
+#botonVolver:hover {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #e0e0e0);
+  background-image: -moz-linear-gradient(top, #ffffff, #e0e0e0);
+  background-image: -ms-linear-gradient(top, #ffffff, #e0e0e0);
+  background-image: -o-linear-gradient(top, #ffffff, #e0e0e0);
+  background-image: linear-gradient(to bottom, #ffffff, #e0e0e0);
+  text-decoration: none;
+}
+
+#cruces {
+  display: inline-block;
+  width: 10%
+}
+
+#puntos {
+  width: 100%;
+  display: inline-block;
+  border: 1px solid #aaa;
+  border-radius:2px;
+}
+
+li {
+  display: inline-block;
+  border: 2px solid grey;
+  border-radius: 5px;
+  list-style: decimal;
+  text-align: center;
+  cursor: move;
+  width: 90%;
+}
+
+.borra {
+  display: inline-block;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 1%;
+  background-color: #BFC9F0;  
+  vertical-align: middle;
+}
+
+#añadir {
+  cursor: pointer; 
+}
+
+#puntosP {
+  display: inline-block;
+}
+
+#punto {
+  display: inline-block;
+  margin-left: 5%;
+}
+
+#form {
+    vertical-align: top;
+    display: inline-block;
+}
+
+#descripcionPunto{
+  border: 1px solid #aaa;
+  box-shadow: 0px 0px 3px #ccc, 0 5px 8px #eee inset;
+  border-radius:2px;
+  height:100px; 
+  width: 100%;
+  margin-left: 4%;
+  margin-top: 4%;
+}
+
+#boton {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 6px 12px 6px 12px;
+  text-decoration: none;
+  margin-left: 80%;
+  margin-top: 3%;
+}
+
+#boton:hover {
+  background: #78c3f5;
+  background-image: -webkit-linear-gradient(top, #78c3f5, #866af5);
+  background-image: -moz-linear-gradient(top, #78c3f5, #866af5);
+  background-image: -ms-linear-gradient(top, #78c3f5, #866af5);
+  background-image: -o-linear-gradient(top, #78c3f5, #866af5);
+  background-image: linear-gradient(to bottom, #78c3f5, #866af5);
+  text-decoration: none;
+}
+
+#nombreRutaPunto {
+  margin-left: 20%;
+  margin-bottom: 5%;
+}

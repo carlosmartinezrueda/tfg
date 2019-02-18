@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>UARoutes</servlet-name>
+		<servlet-class>servlet.UARoutesServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UARoutes</servlet-name>
+		<url-pattern>/uaroutes</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ListarRutas</servlet-name>
+		<servlet-class>servlet.ListarRutas</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListarRutas</servlet-name>
+		<url-pattern>/listarrutas</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>NuevaR</servlet-name>
+		<servlet-class>servlet.NuevaRuta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NuevaR</servlet-name>
+		<url-pattern>/nuevaruta</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BuscarR</servlet-name>
+		<servlet-class>servlet.BuscarRuta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BuscarR</servlet-name>
+		<url-pattern>/buscarruta</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BuscarPuntos</servlet-name>
+		<servlet-class>servlet.BuscarPuntos</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BuscarPuntos</servlet-name>
+		<url-pattern>/buscarpuntos</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BorrarR</servlet-name>
+		<servlet-class>servlet.BorrarRuta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrarR</servlet-name>
+		<url-pattern>/borrarruta</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>NuevoP</servlet-name>
+		<servlet-class>servlet.NuevoPunto</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NuevoP</servlet-name>
+		<url-pattern>/nuevopunto</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BorrarP</servlet-name>
+		<servlet-class>servlet.BorrarPunto</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrarP</servlet-name>
+		<url-pattern>/borrarpunto</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BorrarPuntosRuta</servlet-name>
+		<servlet-class>servlet.BorrarPuntosSinRuta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BorrarPuntosRuta</servlet-name>
+		<url-pattern>/borrarpuntossinruta</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ComprobarRuta</servlet-name>
+		<servlet-class>servlet.ComprobarRuta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ComprobarRuta</servlet-name>
+		<url-pattern>/comprobarruta</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ListarRutasUser</servlet-name>
+		<servlet-class>servlet.ListarRutasUser</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListarRutasUser</servlet-name>
+		<url-pattern>/listarrutasuser</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UpdatePunto</servlet-name>
+		<servlet-class>servlet.UpdatePuntoRuta</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdatePunto</servlet-name>
+		<url-pattern>/actualizarpunto</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>UARoutes</welcome-file>
+	</welcome-file-list>
+</web-app>
